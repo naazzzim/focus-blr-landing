@@ -80,8 +80,8 @@
   window.addEventListener("resize", onScroll);
   update();
 
-  /* ── Countdown to 15 Nov 2026, 4:30 PM IST ─────────────── */
-  var target = new Date("2026-11-15T16:30:00+05:30").getTime();
+  /* ── Countdown to 15 Nov 2026, 4:10 PM IST ─────────────── */
+  var target = new Date("2026-11-15T16:10:00+05:30").getTime();
   var cells = {
     days: document.getElementById("cdDays"),
     hours: document.getElementById("cdHours"),
