@@ -741,6 +741,39 @@ body.loaded [data-hero="11"] { transition-delay: 1.75s; }
   background: var(--gold);
 }
 
+/* ── Organiser logos ────────────────────────────────────── */
+.about__logos { margin-top: clamp(4rem, 10vh, 6.5rem); }
+.about__logoslabel {
+  font-size: 0.62rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 2.4rem;
+}
+.about__logosrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2rem);
+}
+.logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 1.6rem;
+  background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(243, 236, 221, 0.12), transparent 75%);
+  transition: transform 0.6s var(--ease-out);
+}
+.logo-card:hover { transform: translateY(-6px); }
+.logo-card img {
+  display: block;
+  height: clamp(3.4rem, 7vw, 5rem);
+  width: auto;
+  max-width: min(62vw, 16rem);
+  object-fit: contain;
+}
+
 /* ── Footer ─────────────────────────────────────────────── */
 .footer {
   position: relative;
